@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+html {
+  font-size: 30px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "游ゴシック体", Arial, sans-serif;
+  background-color: #d1c0a5;
+  max-width: 100%;
+  min-width: 80%;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background: #d1c0a5;
+  text-align: center;
+}
+
+h1 {
+  /* font-family: "Adobe Handwriting"; */
+  color: #4e3101;
+  font-size: 45px;
+  letter-spacing: 4px;
+  padding: 13%;
+  margin: 0;
+}
+
+h2 {
+  color: #4e3101;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 11%;
+  margin: 0px;
+}
+
+#main-visual {
+  min-width: 1200px;
+  max-height: 400px;
+  background-color: #4e3101;
+  align-items: center;
+}
+
+.mv {
+  display: flex;
+  justify-content: center;
+}
+
+#main-visual img {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 30px;
+}
+
+#description {
+  background-color: #d1c0a5;
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-weight: normal;
+  color: #4e3101;
+  text-align: center;
+  padding-top: 7%;
+  margin: 0px;
+}
+
+p.detail {
+padding:0%
+}
+
+a {
+  color: #4e3101;
+  text-decoration: none;
+}
+
+#list {
+  background-color: #d1c0a5;
+  margin: 0px;
+}
+
+ul {
+  margin-top: 105px;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+  height: 127px;
+  color: #4e3101;
+  text-align: center;
+}
+
+#introduction {
+  background-color: #d1c0a5;
+  margin: 0px;
+}
+
+#introduction .slick-slide img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#introduction .slick-slide {
+  padding: 40px;
+}
+
+#introduction .slick-slide.slick-center img {
+  transform: scale(1.33);
+}
+
+h3 {
+  text-align: center;
+  color: #4e3101;
+  padding-top: 11%;
+}
+
+footer {
+  color: #d1c0a5;
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 10%;
+    padding: 5% 0%;
+    text-align: center;
+    background: #4e3101;
+    font-weight: bold;
+}
+
+footer a {
+  color: #d1c0a5;
+}
